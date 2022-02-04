@@ -1,0 +1,1 @@
+print("Cat", "Dog", "Fox")

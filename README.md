@@ -1,8 +1,7 @@
 
-<h1 align="center">Python Personal Codes</h1>
+# Python Learning Codes
 
 ## Python virtual Environment for Ubuntu 20.04
-
 
 ### Prerequisites
 
