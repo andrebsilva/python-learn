@@ -37,7 +37,8 @@
         import
         in
         is
-        lambda,nonlocal
+        lambda,
+        nonlocal
         not
         or
         pass
