@@ -1,3 +1,3 @@
 option = input()
 
-print("You typed:", option, sep = ' ')
+print("You typed:", option)

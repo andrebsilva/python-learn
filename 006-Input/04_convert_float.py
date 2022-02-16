@@ -1,3 +1,3 @@
-number = float(input("Valor: "))
+number = float(input("Value: "))
 
-print('Número= ', number)
+print('Number =', number)
