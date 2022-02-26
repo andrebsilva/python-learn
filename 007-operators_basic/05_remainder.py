@@ -1,6 +1,3 @@
-from math import remainder
-
-
 dividend = eval(input("Dividend:\t"))
 divisor = eval(input("Divisor:\t"))
 
