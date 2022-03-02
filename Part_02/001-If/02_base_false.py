@@ -1,0 +1,1 @@
+if not False: print("When the sentence is not False")
