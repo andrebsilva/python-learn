@@ -1,3 +1,4 @@
-number = eval(input("Number between 1 and 100: "))
+number = int(input("Number [0 to 100]: "))
 
-print("Evens") if number % 2 == 0 else print("Odds")
+if number % 2 == 0: print("Evens [Par]")
+else: print("Odds [Ímpar]")
