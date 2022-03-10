@@ -1,6 +1,6 @@
-# Perfect   - The sum of the divisors is equal to the number        [06]
-# Deficient - The sum of the divisors is less than the number       [09]
-# Abundant  - The sum of the divisors is greater than the number    [12]
+# Perfect   - The sum of the dividers is equal to the number        [06]
+# Deficient - The sum of the dividers is less than the number       [09]
+# Abundant  - The sum of the dividers is greater than the number    [12]
 
 sum = 0
 number = eval(input("Number:\t"))

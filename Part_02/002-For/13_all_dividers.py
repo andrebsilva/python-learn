@@ -1,4 +1,4 @@
-# All divisor og a number
+# All divisor of a number
 
 number = eval(input("Number:\t"))
 
