@@ -1,4 +1,4 @@
-def my_own_function(message):
-    print(message)
+def my_own_function():
+    print("Hello, World!")
 
-my_own_function("Hello , World!")
+my_own_function()
