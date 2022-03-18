@@ -3,9 +3,11 @@
     any(iterable)
 '''
 
-print(all((0, 1)))
-print(all((1, -5)))
-print(all((False, False)))
-print(all((False, True)))
-print(all((True, True, True)))
+printer = lambda value: print(f'{value} ->', all(value), sep = "\t")
+
+printer((0, 1))
+printer((1, -5))
+printer((False, False))
+printer((False, True))
+printer((True, True))
 

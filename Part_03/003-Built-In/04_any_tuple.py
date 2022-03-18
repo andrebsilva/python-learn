@@ -3,8 +3,10 @@
     any(iterable)
 '''
 
-print(any((0, 0)))
-print(any((0, 1)))
-print(any((0, -9, 0)))
-print(any((False, False, False)))
-print(any((False, False, False, True)))
+printer = lambda value: print(f'{value} ->', any(value), sep = "\t")
+
+printer((0, 0))
+printer((0, 1))
+printer((0, -9, 0))
+printer((False, False))
+printer((False, True))

@@ -3,5 +3,9 @@
     abs(num)
 '''
 
-print(abs(-1))
-print(abs(-1.0))
+printer = lambda value: print(f'{value}', abs(value), sep = "\t")
+
+printer(1)
+printer(-1)
+printer(-110)
+printer(-2.5)

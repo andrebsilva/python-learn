@@ -2,6 +2,6 @@
     Returns the binary of a given number.
 '''
 
-print(bin(2022))
+printer = lambda value: print(f'{value} ->', bin(value), sep = "\t")
 
-print(bin([2, 5, 10]))
+printer(2022)
