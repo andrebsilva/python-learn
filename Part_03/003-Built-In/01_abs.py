@@ -1,6 +1,5 @@
 '''
-    Returns the absolute value of the given number
-    abs(num)
+    Returns the absolute value of the given number.
 '''
 
 printer = lambda value: print(f'{value}', abs(value), sep = "\t")

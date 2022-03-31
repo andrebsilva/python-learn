@@ -1,3 +1,8 @@
+'''
+    Built-In Function: int()
+    Returns an integer object from any number or string.
+'''
+
 text = "22"
 
 text_to_integer = int(text)
