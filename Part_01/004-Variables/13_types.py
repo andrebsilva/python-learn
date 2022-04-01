@@ -1,3 +1,8 @@
+'''
+    Built-in function: type()
+    Returns the type of the object or returns a new type object based on the arguments passed.
+'''
+
 name = "Jon"
 age = 18
 height = 1.75

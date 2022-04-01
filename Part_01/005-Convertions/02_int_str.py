@@ -1,5 +1,5 @@
 '''
-    Built-In Function: int()
+    Built-In Function: str()
     Returns an integer object from any number or string.
 '''
 
