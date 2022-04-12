@@ -1,6 +1,10 @@
-first_number = 10
-second_number = 12
+'''
+    Built-in function: round()
+    Returns a floating-point number rounded to the specified number of decimals.
+'''
 
-print("|{:<14}|{:^14}|{:>14}|".format(first_number, second_number, first_number))
-print("|{0:<14}|{1:^14}|{0:>14}|".format(first_number, second_number))
-print("|{fn:<14}|{sn:^14}|{fn:>14}|".format(fn = first_number, sn = second_number))
+number = 1_234.5
+
+print("Float\t", round(number))
+print("Float\t", round(number, 2))
+print("Float\t", round(number, 8))

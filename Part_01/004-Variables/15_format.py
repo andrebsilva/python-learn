@@ -1,4 +1,5 @@
 '''
+    Built-In Function: format()
     Returns a formatted representation of the given value controlled by the format specifier.
     
     [[fill]align][sign][#][0][width][,][.precision][type]
@@ -16,7 +17,7 @@ print(format(125, 'n'))     # number
 print(format(125, 'b'))     # binary
 print(format(125, 'e'))     # notation
 print(format(125, 'E'))     # NOTATION
-print(format(125, 'f'))     # float
+print(format(125, '-f'))     # float
 print(format(125, '.2f'))   # float
 print(format(125, 'F'))     # FLOAT
 print(format(125, '.3F'))   # FLOAT
