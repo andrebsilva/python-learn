@@ -4,8 +4,6 @@
 
 year = 2022
 
-
-
 print(globals(), '\n')
 print(globals()['__file__'], '\n')
 print(globals()['year'], '\n')
