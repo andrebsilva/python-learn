@@ -1,20 +1,26 @@
 
 # Python Learning Codes
 
-## Python virtual Environment for Ubuntu 20.04
+## Python virtual Environment for Ubuntu 22.04 LTS
 
 ### Prerequisites
 
 Before you get started, let's install or update your python virtual environment:
 
 ```bash
-# Install python 3.x: 3.9 or 3.10
-sudo apt install python3.9
+# Install python 3.10
+sudo apt install python3.10
+
+# Version of the python
+python --version
+
+# or 
+python3 --version
 
 # Install pip 
 sudo apt install pip
 
-# Version of the pip or pip3
+# Version of the pip
 pip --version
 
 # Update pip:
